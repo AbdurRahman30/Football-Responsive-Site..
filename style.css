@@ -296,5 +296,48 @@ footer p{
 }
 
 
+/* -----------------
+Midea Query
+-------------------*/
 
+@media only screen and (min-width:319px) and (max-width:688px){
     
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 50px;
+    }
+    .all-highlights{
+        display: grid;
+        grid-template-row: repeat(1, 1fr);
+        
+    
+    }
+    
+    .highlights-datalies{
+        width: 300px;
+        height: 290px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        margin-left: 60px;
+        margin-right: 20px;
+    }
+    .highlights-image img{
+        width: 328px;
+        height: 248px;
+        margin-left: 60px;
+        margin-right: 20px;
+        margin-bottom: 43px;
+    }
+    
+    .footer img{
+        margin-left: 30px;
+    }
+}
+
+
+   
+    
+    
+    
+    
+
