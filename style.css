@@ -56,7 +56,7 @@ nav li{
 }
 .icon{
     width: 24px;
-    height: 24px;
+    height: 17px;
 }
 .login{
     padding-left: 10px;
@@ -296,20 +296,5 @@ footer p{
 }
 
 
-/* -------------------
-Media Querise
--------------------- */
-/* --------------------Mobail device--------------- */
-
-@media only screen and (max-width:688px) {
-    .container{
-        width: 100%;
- }
- .container, .menu-bar, .images-and-title-section, .blogs, .all-highlights, .footer{
-     grid-template-columns: repeat(1, 1fr);
-     
- }
-    
-}
 
     
